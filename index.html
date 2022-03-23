@@ -30,6 +30,14 @@
             </div>
         </div>
     </div>
+    var video = document.getElementById('video');
+    document.addEventListener('click', function() {
+        video .play();
+    });
+    video.onended = function() {
+        video.play();
+    };
+    </script>
 </body>
 
 
